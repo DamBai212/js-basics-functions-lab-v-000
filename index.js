@@ -19,6 +19,8 @@ let num = distanceTravelledInFeet(start, destination);
        return 0
      } else if (num > 400 && num < 2000){
        return 2.56
-     } else if (num > 2000 && num < 2500)
-     return 25
+     } else if (num > 2000 && num < 2500){
+     return 25} else {
+       return 'cannot travel that far';
+     }
 }
